@@ -42,3 +42,11 @@ else:
 for x in range (1,11):
     print(x)
 """    
+
+#5-----------------
+
+tm=range(1,11)
+
+
+for x in  reversed(tm):
+    print(x)
