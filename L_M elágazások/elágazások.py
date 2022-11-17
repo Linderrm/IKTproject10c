@@ -54,10 +54,20 @@ for x in  reversed(tm):
     print(x)
 """
 #6-----------------
-
+"""
 szam=int(input("kérek egy számot"))
 text = input("kérem a szöveget")
 i=0
 while(i<szam):
     print(text)
     i=i+1
+    """
+
+#7----------------------------
+
+maradek=1
+while maradek!=0 :
+    szam=int(input("kérek egy számot"))
+    maradek=szam%2
+
+
