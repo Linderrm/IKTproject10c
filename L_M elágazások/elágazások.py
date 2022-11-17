@@ -1,5 +1,7 @@
 
+from cgitb import text
 import random
+from re import I
 
 #1------------------------------------
 
@@ -44,9 +46,18 @@ for x in range (1,11):
 """    
 
 #5-----------------
-
+"""
 tm=range(1,11)
 
 
 for x in  reversed(tm):
     print(x)
+"""
+#6-----------------
+
+szam=int(input("kérek egy számot"))
+text = input("kérem a szöveget")
+i=0
+while(i<szam):
+    print(text)
+    i=i+1
